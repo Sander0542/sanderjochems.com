@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -13,3 +14,7 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+Route::get('/educations', [ApiController::class, 'educations'])->name('api.educations');
+Route::get('/experiences', [ApiController::class, 'experiences'])->name('api.experiences');
+Route::get('/projects', [ApiController::class, 'projects'])->name('api.projects');

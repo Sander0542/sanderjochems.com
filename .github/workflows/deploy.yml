@@ -45,7 +45,7 @@ jobs:
         run: npm run build
 
       - name: 'Generate key'
-        run: php artisan key:generate
+        run: php artisan key:generate --force
 
       - name: 'Export website'
         run: php artisan export

@@ -328,6 +328,16 @@ a > code {
     border-radius: .25rem
 }
 
+.card.skill-card {
+    height: 100px;
+}
+
+.card.skill-card .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .card-body {
     flex: 1 1 auto;
     min-height: 1px;

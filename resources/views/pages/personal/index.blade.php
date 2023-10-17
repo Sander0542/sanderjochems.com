@@ -119,8 +119,8 @@
 
                 @foreach (config('personal.skills') as $skill)
                     <div class="col-lg-3 col-md-4">
-                        <div class="card">
-                            <div class="card-body text-center">
+                        <div class="card skill-card">
+                            <div class="card-body">
                                 <h4 class="card-title no-margin">{{ $skill }}</h4>
                             </div>
                         </div>

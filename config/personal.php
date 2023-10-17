@@ -5,10 +5,10 @@ use Carbon\Carbon;
 return [
     'about' => [
         'name' => env('APP_NAME', 'Sander Jochems'),
-        'title' => 'Software Developer',
+        'title' => 'Software Engineer',
         'location' => 'Eindhoven Area, Netherlands',
         'birthdate' => Carbon::parse('2001-06-07T00:00:00', 'UTC'),
-        'about' => 'I am a Software Engineering student able to build Websites, Desktop Applications and Mobile Apps. I love to learn new programming languages and new frameworks. My favorite languages are C#, Dart and PHP. I am skilled at writing well-designed, testable and optimized code using modern solutions. I am a team player who likes to guide the team.'
+        'about' => 'I am a Software Engineer with the ability to develop Full-Stack and Cloud-Native applications. I am passionate about continuously expanding my knowledge of software and cloud. Among my favorite programming tools are C# and Terraform. I excel in crafting cloud-native solutions that can efficiently utilize cloud resources and services. I have a collaborative work style and enjoy providing leadership within a team.'
     ],
     'social' => [
         'github' => [
@@ -146,13 +146,13 @@ return [
         ]
     ],
     'skills' => [
-        'C#',
-        'PHP',
-        'Flutter',
-        'Java',
-        'JavaScript',
-        'Android',
-        'SQL',
-        'HTML & CSS'
+        'Cloud Computing',
+        'Infrastructure as Code',
+        'Containers',
+        'Object-oriented programming',
+        'DevOps',
+        'Full-stack development',
+        'No-Code',
+        'Cloud Native'
     ]
 ];

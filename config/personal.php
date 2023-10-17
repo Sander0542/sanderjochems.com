@@ -63,7 +63,14 @@ return [
             'company' => 'Whyellow',
             'positions' => [
                 [
-                    'name' => 'Intern Software Engineer',
+                    'name' => 'Software Engineer',
+                    'type' => 'Full-time',
+                    'location' => 'Achtseweg Zuid 151E, 5651 GW Eindhoven',
+                    'startedAt' => Carbon::parse('2023-02-06T00:00:00', 'UTC'),
+                    'endedAt' => null
+                ],
+                [
+                    'name' => 'Software Engineer (Intern)',
                     'type' => 'Internship',
                     'location' => 'Achtseweg Zuid 151E, 5651 GW Eindhoven',
                     'startedAt' => Carbon::parse('2022-08-29T00:00:00', 'UTC'),
@@ -94,7 +101,7 @@ return [
             'company' => 'ASB Security',
             'positions' => [
                 [
-                    'name' => 'Intern',
+                    'name' => 'Software Developer (Intern)',
                     'type' => 'Internship',
                     'location' => 'Boschdijk 720, 5624 CL Eindhoven',
                     'startedAt' => Carbon::parse('2019-08-01T00:00:00', 'UTC'),
@@ -106,7 +113,7 @@ return [
             'company' => 'Summa College',
             'positions' => [
                 [
-                    'name' => 'Intern',
+                    'name' => 'Software Developer (Intern)',
                     'type' => 'Internship',
                     'location' => 'Kronehoefstraat 76, 5622 AC Eindhoven',
                     'startedAt' => Carbon::parse('2018-08-01T00:00:00', 'UTC'),

@@ -6,10 +6,16 @@ class PagesController extends Controller
 {
     public function index()
     {
-        $experiences = collect(config('personal.experiences'))->map(function ($experience) {
+        $experiences = collect(config('personal.experiences'))->filter(function ($experience) {
+            return collect($experience['positions'])->filter(function ($title) {
+                    return $title['startedAt'] <= now();
+                })->count() > 0;
+        })->map(function ($experience) {
             return [
                 'company' => $experience['company'],
-                'positions' => collect($experience['positions'])->map(function ($title) {
+                'positions' => collect($experience['positions'])->filter(function ($title) {
+                    return $title['startedAt'] <= now();
+                })->map(function ($title) {
                     return [
                         'name' => $title['name'],
                         'type' => $title['type'],
@@ -22,7 +28,9 @@ class PagesController extends Controller
             ];
         });
 
-        $educations = collect(config('personal.educations'))->map(function ($education) {
+        $educations = collect(config('personal.educations'))->filter(function ($education) {
+            return $education['startedAt'] <= now();
+        })->map(function ($education) {
             return [
                 'school' => $education['school'],
                 'study' => $education['study'],

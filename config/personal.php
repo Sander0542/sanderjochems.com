@@ -60,6 +60,18 @@ return [
     ],
     'experiences' => [
         [
+            'company' => 'Capgemini',
+            'positions' => [
+                [
+                    'name' => 'Cloud Engineer',
+                    'type' => 'Full-time',
+                    'location' => 'Reykjavikplein 1, 3543 KA Utrecht',
+                    'startedAt' => Carbon::parse('2024-02-01T00:00:00', 'UTC'),
+                    'endedAt' => null
+                ]
+            ]
+        ],
+        [
             'company' => 'Whyellow',
             'positions' => [
                 [
@@ -67,7 +79,7 @@ return [
                     'type' => 'Full-time',
                     'location' => 'Achtseweg Zuid 151E, 5651 GW Eindhoven',
                     'startedAt' => Carbon::parse('2023-02-06T00:00:00', 'UTC'),
-                    'endedAt' => null
+                    'endedAt' => Carbon::parse('2024-01-31T00:00:00', 'UTC')
                 ],
                 [
                     'name' => 'Software Engineer (Intern)',

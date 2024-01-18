@@ -98,7 +98,7 @@ return [
                     'type' => 'Contract',
                     'location' => 'Eindhoven Area, Netherlands',
                     'startedAt' => Carbon::parse('2019-08-31T00:00:00', 'UTC'),
-                    'endedAt' => Carbon::parse('2022-10-31T00:00:00', 'UTC')
+                    'endedAt' => Carbon::parse('2023-12-31T00:00:00', 'UTC')
                 ],
                 [
                     'name' => 'Chief Executive Officer',

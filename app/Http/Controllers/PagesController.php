@@ -59,7 +59,7 @@ class PagesController extends Controller
     private function getDuration($start, $end): string
     {
         $start = ($start ?? now())->startOfMonth();
-        $end = (($end == null || $end > now()) ? now() : $end)->endOfMonth();
+        $end = (($end == null || $end > now()) ? now() : $end)->endOfMonth()->addDay();
 
         $diff = $start->diff($end);
 

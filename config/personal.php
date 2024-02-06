@@ -75,7 +75,7 @@ return [
             'company' => 'Whyellow',
             'positions' => [
                 [
-                    'name' => 'Software Engineer',
+                    'name' => 'Cloud & Software Engineer',
                     'type' => 'Full-time',
                     'location' => 'Achtseweg Zuid 151E, 5651 GW Eindhoven',
                     'startedAt' => Carbon::parse('2023-02-06T00:00:00', 'UTC'),
@@ -94,18 +94,11 @@ return [
             'company' => 'Kodular',
             'positions' => [
                 [
-                    'name' => 'Vice President of Digital Tech',
-                    'type' => 'Contract',
-                    'location' => 'Eindhoven Area, Netherlands',
-                    'startedAt' => Carbon::parse('2019-08-31T00:00:00', 'UTC'),
-                    'endedAt' => Carbon::parse('2023-12-31T00:00:00', 'UTC')
-                ],
-                [
-                    'name' => 'Chief Executive Officer',
-                    'type' => 'Self-employed',
+                    'name' => 'Co-Founder',
+                    'type' => 'Permanent',
                     'location' => 'Eindhoven Area, Netherlands',
                     'startedAt' => Carbon::parse('2017-07-01T00:00:00', 'UTC'),
-                    'endedAt' => Carbon::parse('2019-08-30T00:00:00', 'UTC')
+                    'endedAt' => Carbon::parse('2023-12-31T00:00:00', 'UTC')
                 ]
             ]
         ],

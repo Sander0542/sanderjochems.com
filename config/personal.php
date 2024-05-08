@@ -65,8 +65,20 @@ return [
                 [
                     'name' => 'Cloud Engineer',
                     'type' => 'Full-time',
-                    'location' => 'Reykjavikplein 1, 3543 KA Utrecht',
+                    'location' => 'Utrecht, Netherlands',
                     'startedAt' => Carbon::parse('2024-02-01T00:00:00', 'UTC'),
+                    'endedAt' => null
+                ]
+            ]
+        ],
+        [
+            'company' => 'KPN',
+            'positions' => [
+                [
+                    'name' => 'DevOps Engineer (via Capgemini)',
+                    'type' => 'Contract',
+                    'location' => 'Amsterdam, Netherlands',
+                    'startedAt' => Carbon::parse('2024-04-01T00:00:00', 'UTC'),
                     'endedAt' => null
                 ]
             ]
@@ -77,14 +89,14 @@ return [
                 [
                     'name' => 'Cloud & Software Engineer',
                     'type' => 'Full-time',
-                    'location' => 'Achtseweg Zuid 151E, 5651 GW Eindhoven',
+                    'location' => 'Eindhoven, Netherlands',
                     'startedAt' => Carbon::parse('2023-02-06T00:00:00', 'UTC'),
                     'endedAt' => Carbon::parse('2024-01-31T00:00:00', 'UTC')
                 ],
                 [
                     'name' => 'Software Engineer (Intern)',
                     'type' => 'Internship',
-                    'location' => 'Achtseweg Zuid 151E, 5651 GW Eindhoven',
+                    'location' => 'Eindhoven, Netherlands',
                     'startedAt' => Carbon::parse('2022-08-29T00:00:00', 'UTC'),
                     'endedAt' => Carbon::parse('2023-01-27T00:00:00', 'UTC')
                 ]
@@ -96,7 +108,7 @@ return [
                 [
                     'name' => 'Co-Founder',
                     'type' => 'Permanent',
-                    'location' => 'Eindhoven Area, Netherlands',
+                    'location' => 'Eindhoven, Netherlands',
                     'startedAt' => Carbon::parse('2017-07-01T00:00:00', 'UTC'),
                     'endedAt' => Carbon::parse('2023-12-31T00:00:00', 'UTC')
                 ]
@@ -108,7 +120,7 @@ return [
                 [
                     'name' => 'Software Developer (Intern)',
                     'type' => 'Internship',
-                    'location' => 'Boschdijk 720, 5624 CL Eindhoven',
+                    'location' => 'Eindhoven, Netherlands',
                     'startedAt' => Carbon::parse('2019-08-01T00:00:00', 'UTC'),
                     'endedAt' => Carbon::parse('2019-12-31T00:00:00', 'UTC')
                 ]
@@ -120,7 +132,7 @@ return [
                 [
                     'name' => 'Software Developer (Intern)',
                     'type' => 'Internship',
-                    'location' => 'Kronehoefstraat 76, 5622 AC Eindhoven',
+                    'location' => 'Eindhoven, Netherlands',
                     'startedAt' => Carbon::parse('2018-08-01T00:00:00', 'UTC'),
                     'endedAt' => Carbon::parse('2019-02-01T00:00:00', 'UTC')
                 ]
@@ -132,7 +144,7 @@ return [
                 [
                     'name' => 'Stocker',
                     'type' => 'Part-time',
-                    'location' => 'Coevering 5, 5665 GA Geldrop',
+                    'location' => 'Geldrop, Netherlands',
                     'startedAt' => Carbon::parse('2017-03-01T00:00:00', 'UTC'),
                     'endedAt' => Carbon::parse('2018-08-31T00:00:00', 'UTC')
                 ]

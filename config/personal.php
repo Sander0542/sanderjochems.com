@@ -11,21 +11,20 @@ return [
         'about' => 'I am a Cloud & Software Engineer with the ability to develop Full-Stack and Cloud-Native applications. I am passionate about continuously expanding my knowledge of software and cloud. Among my favorite programming tools are C# and Terraform. I excel in crafting cloud-native solutions that can efficiently utilize cloud resources and services. I have a collaborative work style and enjoy providing leadership within a team.'
     ],
     'social' => [
-        'github' => [
-            'title' => 'Sander0542',
-            'url' => 'https://github.com/Sander0542'
-        ],
-        'linkedin' => [
-            'title' => 'Sander Jochems',
-            'url' => 'https://www.linkedin.com/in/sander-jochems/'
-        ],
         'email' => [
+            'header' => 'Email',
             'title' => 'contact@sanderjochems.com',
             'url' => 'mailto:contact@sanderjochems.com',
         ],
-        'twitter' => [
-            'title' => '@Sander0542',
-            'url' => 'https://twitter.com/Sander0542'
+        'linkedin' => [
+            'header' => 'LinkedIn',
+            'title' => 'Sander Jochems',
+            'url' => 'https://www.linkedin.com/in/sander-jochems/'
+        ],
+        'github' => [
+            'header' => 'GitHub',
+            'title' => 'Sander0542',
+            'url' => 'https://github.com/Sander0542'
         ],
     ],
     'educations' => [
@@ -63,7 +62,7 @@ return [
             'company' => 'Capgemini',
             'positions' => [
                 [
-                    'name' => 'Cloud Engineer',
+                    'name' => 'Cloud Engineer Consultant',
                     'type' => 'Full-time',
                     'location' => 'Utrecht, Netherlands',
                     'startedAt' => Carbon::parse('2024-02-01T00:00:00', 'UTC'),

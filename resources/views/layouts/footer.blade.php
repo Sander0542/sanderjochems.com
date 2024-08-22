@@ -5,30 +5,14 @@
         <div class="row">
             <div class="col-md-6">
                 <table>
-                    <tr>
-                        <td class="config-title">Email</td>
-                        <td>
-                            <a href="{{ config('personal.social.email.url') }}" target="_blank">{{ config('personal.social.email.title') }}</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="config-title">LinkedIn</td>
-                        <td>
-                            <a href="{{ config('personal.social.linkedin.url') }}" target="_blank">{{ config('personal.social.linkedin.title') }}</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="config-title">GitHub</td>
-                        <td>
-                            <a href="{{ config('personal.social.github.url') }}" target="_blank">{{ config('personal.social.github.title') }}</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="config-title">Twitter</td>
-                        <td>
-                            <a href="{{ config('personal.social.twitter.url') }}" target="_blank">{{ config('personal.social.twitter.title') }}</a>
-                        </td>
-                    </tr>
+                    @foreach(config('personal.social') as $social)
+                        <tr>
+                            <td class="config-title">{{ $social['header'] }}</td>
+                            <td>
+                                <a href="{{ $social['url'] }}" target="_blank">{{ $social['title'] }}</a>
+                            </td>
+                        </tr>
+                    @endforeach
                 </table>
             </div>
         </div>

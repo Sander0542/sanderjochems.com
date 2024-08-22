@@ -37,12 +37,12 @@ jobs:
       - name: 'Setup PHP'
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.0'
+          php-version: '8.3'
 
       - name: 'Setup Node'
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
 
       - name: 'Copy .env'
         run: cp .env.deploy .env

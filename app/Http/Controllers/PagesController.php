@@ -2,9 +2,17 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Foundation\Application;
+use Illuminate\Http\Request;
+use Spatie\Sitemap\Sitemap;
+use Spatie\Sitemap\Tags\Url;
+use Symfony\Component\HttpFoundation\Response;
+
 class PagesController extends Controller
 {
-    public function index()
+    public function index(): Factory|View|Application
     {
         $experiences = collect(config('personal.experiences'))->filter(function ($experience) {
             return collect($experience['positions'])->filter(function ($title) {
@@ -45,6 +53,18 @@ class PagesController extends Controller
             'educations' => $educations,
             'projects' => config('personal.projects'),
         ]);
+    }
+
+    public function sitemap(Request $request): Response
+    {
+        $sitemap = Sitemap::create()
+            ->add(Url::create('/'));
+
+        foreach ($sitemap->getTags() as $tag) {
+            $tag->setLastModificationDate(now());
+        }
+
+        return $sitemap->toResponse($request);
     }
 
     private function getEndDate($endedAt)

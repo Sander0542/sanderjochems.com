@@ -14,7 +14,9 @@ return [
      *
      * For example: "about", "posts/featured"
      */
-    'paths' => [],
+    'paths' => [
+        '/sitemap.xml',
+    ],
 
     /*
      * Files and folders that should be included in the build. Expects
@@ -35,7 +37,6 @@ return [
         '/mix-manifest\.json$/',
         '/manifest\.json$/',
         '/\.htaccess$/',
-        '/robots\.txt$/',
     ],
 
     /*

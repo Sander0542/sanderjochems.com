@@ -71,6 +71,18 @@ return [
             ]
         ],
         [
+            'company' => 'Equigy',
+            'positions' => [
+                [
+                    'name' => 'Cloud Engineer (via Capgemini)',
+                    'type' => 'Contract',
+                    'location' => 'Netherlands',
+                    'startedAt' => Carbon::parse('2024-10-17T00:00:00', 'UTC'),
+                    'endedAt' => null
+                ]
+            ]
+        ],
+        [
             'company' => 'KPN',
             'positions' => [
                 [
@@ -78,7 +90,7 @@ return [
                     'type' => 'Contract',
                     'location' => 'Amsterdam, Netherlands',
                     'startedAt' => Carbon::parse('2024-04-01T00:00:00', 'UTC'),
-                    'endedAt' => null
+                    'endedAt' => Carbon::parse('2024-10-16T00:00:00', 'UTC')
                 ]
             ]
         ],

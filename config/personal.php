@@ -6,7 +6,7 @@ return [
     'about' => [
         'name' => env('APP_NAME', 'Sander Jochems'),
         'title' => 'Cloud & Software Engineer',
-        'location' => 'Eindhoven Area, Netherlands',
+        'location' => 'Utrecht, Netherlands',
         'birthdate' => Carbon::parse('2001-06-07T00:00:00', 'UTC'),
         'about' => 'I am a Cloud & Software Engineer with the ability to develop Full-Stack and Cloud-Native applications. I am passionate about continuously expanding my knowledge of software and cloud. Among my favorite programming tools are C# and Terraform. I excel in crafting cloud-native solutions that can efficiently utilize cloud resources and services. I have a collaborative work style and enjoy providing leadership within a team.'
     ],

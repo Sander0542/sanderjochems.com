@@ -3781,16 +3781,16 @@
         },
         {
             "name": "spatie/laravel-package-tools",
-            "version": "1.18.0",
+            "version": "1.18.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "8332205b90d17164913244f4a8e13ab7e6761d29"
+                "reference": "ba67eee37d86ed775dab7dad58a7cbaf9a6cfe78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/8332205b90d17164913244f4a8e13ab7e6761d29",
-                "reference": "8332205b90d17164913244f4a8e13ab7e6761d29",
+                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/ba67eee37d86ed775dab7dad58a7cbaf9a6cfe78",
+                "reference": "ba67eee37d86ed775dab7dad58a7cbaf9a6cfe78",
                 "shasum": ""
             },
             "require": {
@@ -3829,7 +3829,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.18.0"
+                "source": "https://github.com/spatie/laravel-package-tools/tree/1.18.3"
             },
             "funding": [
                 {
@@ -3837,20 +3837,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-30T13:13:39+00:00"
+            "time": "2025-01-22T08:51:18+00:00"
         },
         {
             "name": "spatie/laravel-sitemap",
-            "version": "7.3.2",
+            "version": "7.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-sitemap.git",
-                "reference": "f32822abf94f29c886154f7dbfc6b5763f0de970"
+                "reference": "9423e3bb82d9e83fa8969a2a30dcea309d802e7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/f32822abf94f29c886154f7dbfc6b5763f0de970",
-                "reference": "f32822abf94f29c886154f7dbfc6b5763f0de970",
+                "url": "https://api.github.com/repos/spatie/laravel-sitemap/zipball/9423e3bb82d9e83fa8969a2a30dcea309d802e7e",
+                "reference": "9423e3bb82d9e83fa8969a2a30dcea309d802e7e",
                 "shasum": ""
             },
             "require": {
@@ -3902,7 +3902,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-sitemap/tree/7.3.2"
+                "source": "https://github.com/spatie/laravel-sitemap/tree/7.3.3"
             },
             "funding": [
                 {
@@ -3910,7 +3910,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-01-13T11:33:06+00:00"
+            "time": "2025-01-27T09:44:53+00:00"
         },
         {
             "name": "spatie/robots-txt",

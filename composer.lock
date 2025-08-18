@@ -3689,16 +3689,16 @@
         },
         {
             "name": "spatie/laravel-export",
-            "version": "1.2.0",
+            "version": "1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-export.git",
-                "reference": "588c4d04906c281fa23461b968cc418186756d27"
+                "reference": "ebc8592001a15eccae8d67e423734d8a775536a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-export/zipball/588c4d04906c281fa23461b968cc418186756d27",
-                "reference": "588c4d04906c281fa23461b968cc418186756d27",
+                "url": "https://api.github.com/repos/spatie/laravel-export/zipball/ebc8592001a15eccae8d67e423734d8a775536a2",
+                "reference": "ebc8592001a15eccae8d67e423734d8a775536a2",
                 "shasum": ""
             },
             "require": {
@@ -3754,7 +3754,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-export/tree/1.2.0"
+                "source": "https://github.com/spatie/laravel-export/tree/1.2.1"
             },
             "funding": [
                 {
@@ -3766,7 +3766,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-03-08T06:41:33+00:00"
+            "time": "2025-08-18T08:42:53+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",

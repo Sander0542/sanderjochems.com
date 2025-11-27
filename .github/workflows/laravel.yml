@@ -68,7 +68,7 @@ jobs:
           path: 'dist'
 
       - name: 'Deploy to Cloudflare Pages'
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@80501a7b4d229a89df2bf50ac1bc99bc0f305ae9 # v3.0.2
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

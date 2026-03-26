@@ -1,6 +1,7 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        "local>Sander0542/renovate-config"
+        "local>Sander0542/renovate-config",
+        "packages:vite"
     ]
 }

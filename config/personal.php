@@ -8,7 +8,8 @@ return [
         'title' => 'Cloud Engineer',
         'location' => 'Utrecht, Netherlands',
         'birthdate' => Carbon::parse('2001-06-07T00:00:00', 'UTC'),
-        'about' => 'I am a Cloud & Software Engineer with the ability to develop Full-Stack and Cloud-Native applications. I am passionate about continuously expanding my knowledge of software and cloud. Among my favorite programming tools are C# and Terraform. I excel in crafting cloud-native solutions that can efficiently utilize cloud resources and services. I have a collaborative work style and enjoy providing leadership within a team.'
+        'about' => 'I\'m Sander — a Cloud & Software Engineer based in Utrecht.<br/>I enjoy designing and building reliable, scalable systems, and I like turning complex problems into simple, maintainable solutions.',
+        'contact' => 'Want to talk about a project, role, or collaboration?<br/>Feel free to reach out — I\'m always open to interesting opportunities.'
     ],
     'social' => [
         'email' => [
@@ -165,7 +166,7 @@ return [
     'projects' => [
         [
             'name' => 'Kodular',
-            'description' => 'Kodular is an online suite for mobile app development. It mainly provides a free drag-and-drop Android app creator without coding, based on MIT AppInventor. It brings lots of new features like new components and blocks. It also provides a free online app store to share and distribute apps and an extensions IDE for advanced users.',
+            'description' => ' A no-code platform for building Android apps using a drag-and-drop interface. I worked on the platform\'s architecture, scalability, and core features, helping creators publish thousands of apps.',
             'url' => 'https://kodular.io/',
             'imageUrl' => '/assets/projects/kodular.webp',
             'startedAt' => Carbon::parse('2020-01-16T00:00:00', 'UTC'),
@@ -173,7 +174,7 @@ return [
         ],
         [
             'name' => 'Network Manager',
-            'description' => 'Simple web application that lets you manage the used hosts in your networks. It supports multiple networks based on their subnet and size. Within each host you can specify the ports that are used and the services that are running on them.',
+            'description' => 'A lightweight tool for managing networks, hosts, and services. Built to make network administration easier with a clean UI and simple workflows.',
             'url' => 'https://github.com/Sander0542/Network-Manager',
             'imageUrl' => '/assets/projects/network-manager.png',
             'startedAt' => Carbon::parse('2021-12-21T00:00:00', 'UTC'),

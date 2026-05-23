@@ -4,7 +4,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <p>{{ config('personal.about.contact') }}
+                <p>{!! config('personal.about.contact') !!}
                 <table>
                     @foreach(config('personal.social') as $social)
                         <tr>

@@ -53,7 +53,7 @@
             <div class="row">
                 <div class="col-10">
                     <h2>Hi</h2>
-                    <p>{{ config('personal.about.about') }}</p>
+                    <p>{!! config('personal.about.about') !!}</p>
                 </div>
             </div>
 

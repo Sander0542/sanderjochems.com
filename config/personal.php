@@ -63,11 +63,18 @@ return [
             'company' => 'Capgemini',
             'positions' => [
                 [
+                    'name' => 'Senior Cloud Engineer Consultant',
+                    'type' => 'Full-time',
+                    'location' => 'Utrecht, Netherlands',
+                    'startedAt' => Carbon::parse('2026-07-01T00:00:00', 'UTC'),
+                    'endedAt' => null
+                ],
+                [
                     'name' => 'Cloud Engineer Consultant',
                     'type' => 'Full-time',
                     'location' => 'Utrecht, Netherlands',
                     'startedAt' => Carbon::parse('2024-02-01T00:00:00', 'UTC'),
-                    'endedAt' => null
+                    'endedAt' => Carbon::parse('2026-06-30T00:00:00', 'UTC'),
                 ]
             ]
         ],

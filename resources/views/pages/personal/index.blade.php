@@ -7,7 +7,7 @@
         <div class="container personal">
             <div class="row">
                 <div class="col-md-4 personal-picture d-none d-md-block">
-                    <img src="/assets/home/sander.webp" alt="Portrait of {{ config('personal.about.name') }}, {{ config('personal.about.title') }}">
+                    <img src="/assets/home/sander.webp" alt="Portrait of {{ config('personal.about.name') }}, {{ config('personal.about.title') }}" fetchpriority="high">
                 </div>
                 <div class="col-md-8 personal-profile">
                     <h1 class="profile-name">{{ config('personal.about.name') }}</h1>

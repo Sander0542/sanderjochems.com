@@ -3,5 +3,8 @@
     "extends": [
         "local>Sander0542/renovate-config",
         "packages:vite"
+    ],
+    "postUpdateOptions": [
+        "composerWithAll"
     ]
 }

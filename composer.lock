@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2f5cd69f03bfe1d63930dce33d4c470d",
+    "content-hash": "4f795a5f95047716e2e72cdb1082450e",
     "packages": [
         {
             "name": "brick/math",
@@ -3538,20 +3538,20 @@
         },
         {
             "name": "spatie/laravel-export",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-export.git",
-                "reference": "2a6b30912116b5777f43546ad0eb98f2492bfa9b"
+                "reference": "a4727e1b12e837ad67cdeaa4d165a3de209a94ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-export/zipball/2a6b30912116b5777f43546ad0eb98f2492bfa9b",
-                "reference": "2a6b30912116b5777f43546ad0eb98f2492bfa9b",
+                "url": "https://api.github.com/repos/spatie/laravel-export/zipball/a4727e1b12e837ad67cdeaa4d165a3de209a94ce",
+                "reference": "a4727e1b12e837ad67cdeaa4d165a3de209a94ce",
                 "shasum": ""
             },
             "require": {
-                "guzzlehttp/guzzle": "^7.8.1",
+                "guzzlehttp/guzzle": "^7.8.1|^8.0",
                 "illuminate/console": "^11.0|^12.0|^13.0",
                 "illuminate/contracts": "^11.0|^12.0|^13.0",
                 "illuminate/http": "^11.0|^12.0|^13.0",
@@ -3603,7 +3603,7 @@
                 "spatie"
             ],
             "support": {
-                "source": "https://github.com/spatie/laravel-export/tree/1.5.0"
+                "source": "https://github.com/spatie/laravel-export/tree/1.6.0"
             },
             "funding": [
                 {
@@ -3615,7 +3615,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-26T19:20:03+00:00"
+            "time": "2026-10-27T14:14:23+00:00"
         },
         {
             "name": "spatie/laravel-package-tools",

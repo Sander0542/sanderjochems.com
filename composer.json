@@ -11,7 +11,7 @@
         "php": "^8.1",
         "guzzlehttp/guzzle": "8.3.1",
         "laravel/framework": "13.42.0",
-        "laravel/sanctum": "4.3.3",
+        "laravel/sanctum": "4.4.0",
         "laravel/tinker": "3.0.2",
         "spatie/laravel-export": "1.6.0",
         "spatie/laravel-sitemap": "8.2.0"

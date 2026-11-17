@@ -12,7 +12,7 @@
         "guzzlehttp/guzzle": "8.5.1",
         "laravel/framework": "13.43.0",
         "laravel/sanctum": "4.5.0",
-        "laravel/tinker": "3.1.0",
+        "laravel/tinker": "3.2.0",
         "spatie/laravel-export": "1.6.0",
         "spatie/laravel-sitemap": "8.2.0"
     },

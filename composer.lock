@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f3dff88a86dd630bb2b85232ef74046",
+    "content-hash": "63d5601029911a4c985734749926dd88",
     "packages": [
         {
             "name": "brick/math",
@@ -1077,16 +1077,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v13.44.0",
+            "version": "v13.44.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "9d3d8e77e2f91be5dfecdc64ede49337049e8abd"
+                "reference": "8a8c4a84852869e13190d89f9da873cd9a70f14c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9d3d8e77e2f91be5dfecdc64ede49337049e8abd",
-                "reference": "9d3d8e77e2f91be5dfecdc64ede49337049e8abd",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/8a8c4a84852869e13190d89f9da873cd9a70f14c",
+                "reference": "8a8c4a84852869e13190d89f9da873cd9a70f14c",
                 "shasum": ""
             },
             "require": {
@@ -1306,8 +1306,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-11-24T15:48:17+00:00",
-            "published-time": "2026-11-24T15:48:29+00:00"
+            "time": "2026-11-24T16:10:06+00:00",
+            "published-time": "2026-11-24T16:10:17+00:00"
         },
         {
             "name": "laravel/prompts",
